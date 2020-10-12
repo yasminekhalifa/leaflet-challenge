@@ -9,7 +9,7 @@ d3.json(queryUrl, function(data) {
 
 function colourMarker(mag) {
   if(mag<1){
-    return "green";
+    return "#ccffb3";
   }else if(mag<2){
     return "blue";
   }else if(mag<3){
